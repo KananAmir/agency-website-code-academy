@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+#header .header .contact-btn {
+  border: 1px solid rgba(255, 255, 255, 0.295743);
+  color: #fff;
+  border-radius: 6px;
+  text-transform: uppercase;
+  background-color: transparent;
+  width: 138px;
+  height: 48px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+#header .header .contact-btn {
+  border: 1px solid rgba(255, 255, 255, 0.295743);
+  color: #fff;
+  border-radius: 6px;
+  text-transform: uppercase;
+  background-color: transparent;
+  width: 138px;
+  height: 48px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+#header {
+  background-color: #312B49;
+  padding: 10px 0;
+}
+#header .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  width: 515px;
+}
+#header .header nav ul li {
+  color: #fff;
+}
+#header .header .menu {
+  display: none;
+}
+@media only screen and (max-width: 992px) {
+  #header .header nav {
+    display: none;
+  }
+  #header .header .contact-btn {
+    display: none;
+  }
+  #header .header .menu {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
