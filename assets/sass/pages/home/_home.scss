@@ -1,8 +1,9 @@
-@import "./variables";
-@import "./mixins";
-@import "./button";
+// @import "./variables";
+// @import "./mixins";
+// @import "./button";
 
 #home {
+    // banner section
     #banner {
         background-color: $secondary-color;
         .banner {
@@ -18,7 +19,7 @@
                 }
                 h1 {
                     font-weight: 800;
-                    font-size: 72px;
+                    // font-size: 72px;
                     line-height: 80px;
                     color: $color-white;
                     max-width: 513px;
@@ -74,9 +75,9 @@
                 flex-direction: column-reverse;
                 .banner-info {
                     width: 100%;
-                    h1 {
-                        font-size: 56px;
-                    }
+                    // h1 {
+                    //     font-size: 56px;
+                    // }
                     .star {
                         display: none;
                     }
@@ -84,6 +85,24 @@
                 .banner-image {
                     width: 100%;
                 }
+            }
+        }
+    }
+
+    //partners section
+    #partners {
+        background-color: $bg-color;
+        .partners {
+            @include flexBox(space-between);
+            flex-wrap: wrap;
+            padding: 76px 0;
+            border-bottom: 1px solid #f3d1bf;
+        }
+
+        @media only screen and (max-width: 992px) {
+            .partners {
+                @include flexBox(center);
+                gap: 24px 41px;
             }
         }
     }
